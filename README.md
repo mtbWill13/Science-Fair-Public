@@ -1,0 +1,1 @@
+My name is will and i created this project for a science fair project at school. it is a website that allows parents to keep track of their kids school activities. Netlify URL: science-fair-24.netlify.app.

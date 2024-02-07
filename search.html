@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="btn-div">    
+        <a href="index.html"><button class="buttonnogo"><i class="fa-solid fa-house icon"></i>Home</button></a>
+        <a href="search.html"><button class="buttongo"><i class="fa-solid fa-plus icon"></i>Find Activities</button></a>
+    </div>
+    <div id="input-container">
+        <input id="search-input" type="text" placeholder="Search for activities e.g. field trips, volleyball...">
+        
+    </div>
+    <div id="results"></div>
+    <template id="template">
+        <div>
+            <h1 id="activity"></h1>
+            <button id="activity-button"></button>
+        </div>
+    </template>
+</body>
+<script src="index.js"></script>
+</html>

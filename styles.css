@@ -1,0 +1,151 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.buttongo {
+    padding: 10px;
+    background-color: #1f74cf;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttonnogo {
+    padding: 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.icon {
+    padding-right: 5px;
+}
+
+.btn-div {
+    margin: 0px;
+    padding: 30px 0px 30px 10px;
+    width: 100%;
+    background-color: #1f4274;
+    margin: none;
+}
+
+#upcoming-el {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#search-input {
+    width: 40%;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#input-container {
+    display: flex;
+    justify-content: center;
+}
+
+#search-btn {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #1f74cf;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-items {
+    padding: 10px;
+    background-color: lightgray;
+    width: 50%;
+    border-radius: 5px;
+    margin: 10px auto;
+
+}
+
+.vBallGameDiv {
+    padding: 5px 10px;
+    background-color: lightgray;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.add-to-calender {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #1f74cf;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    display: block;
+}
+
+.add-to-calender2 {
+    margin: 10px 5px;
+    background-color: #1f74cf;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#btns {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    background-color: #1f4274;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.greybutton {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: lightgray;
+    color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.print {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 10px;
+    background-color: #1f74cf;
+    color: aliceblue;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.augustine-logo {
+    height: 200px;
+    margin-top: none;
+}
+
+.title-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cyo-logo {
+    height: 150px;
+    margin-top: 10px;
+}

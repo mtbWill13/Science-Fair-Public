@@ -32,7 +32,7 @@ body {
     margin: none;
 }
 
-#upcoming-el {
+.upcoming-el {
     font-weight: bold;
     font-size: 50px;
     text-align: center;
@@ -136,7 +136,7 @@ body {
 }
 
 .augustine-logo {
-    height: 200px;
+    width: 15%;
     margin-top: none;
 }
 
@@ -146,6 +146,6 @@ body {
 }
 
 .cyo-logo {
-    height: 150px;
+    width: 14%;    
     margin-top: 10px;
 }

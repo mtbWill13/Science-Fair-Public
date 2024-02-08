@@ -56,7 +56,7 @@ console.log(paDays[0].date.toLocaleString())
 
 
 
-while (volleyball) {
+if (volleyball) {
     let newDiv = document.createElement("div");
     newDiv.setAttribute("class", "vBallGameDiv")
 
@@ -102,6 +102,8 @@ if (pizzaDay) {
     newPizzaDiv.appendChild(newPizzaDate)
     newPizzaDiv.appendChild(newPizzaP);
     umpcomingContainer.appendChild(newPizzaDiv)
+
+    localStorage.removeItem("pizzaDay")
 }
 
 if (seniorBBall) {
@@ -125,6 +127,8 @@ if (seniorBBall) {
     newBBallDiv.appendChild(newBBallDate)
     newBBallDiv.appendChild(newBBallP);
     umpcomingContainer.appendChild(newBBallDiv)
+
+    localStorage.removeItem("seniorBBall")
 }
 
 
